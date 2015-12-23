@@ -1,25 +1,18 @@
 {
-  "name": "angular-ui-ace",
-  "version": "0.2.3",
-  "description": "This directive allows you to add ACE editor elements.",
-  "author": "https://github.com/angular-ui/ui-ace/graphs/contributors",
+  "name": "interview.code",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "homepage": "https://github.com/softjourn-internship/code-interviewer",
   "license": "MIT",
-  "homepage": "http://angular-ui.github.com",
-  "main": "./src/ui-ace.js",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test*",
-    "demo*",
-    "gruntFile.js",
-    "package.json"
-  ],
+  "private": true,
   "dependencies": {
-    "angular": "~1.x",
-    "ace-builds": "^1"
-  },
-  "devDependencies": {
-    "angular-mocks": "~1.x"
+    "angular": "1.4.x",
+    "angular-mocks": "1.4.x",
+    "jquery": "~2.1.1",
+    "angular-route": "1.4.x",
+    "angular-resource": "1.4.x",
+    "angular-animate": "1.4.x",
+    "ace":"1.2.x",
+    "angular-ui-ace":"0.2.x"
   }
 }
